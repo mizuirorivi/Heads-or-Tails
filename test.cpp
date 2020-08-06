@@ -16,5 +16,6 @@ int main(){
         if(rand100(mt)&1) cout << "Heads" << endl,h++;
         else cout << "Tails" << endl,t++;
     }
-    cout << (h>t?"Yout won":"You lost") << endl;
+    
+    cout << (h>t?name + "　won":name +" lost") << endl;
 }
